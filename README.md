@@ -1,39 +1,33 @@
 # Child-s-Fine-Motor-and-Haptic
 
-![transparent](https://capsule-render.vercel.app/api?type=transparent&fontColor=703ee5&text=New%20Meta&height=150&fontSize=60&desc=Gloved%20Controller%20for%20Metaverse%20Interface%20&descAlignY=75&descAlign=60)
-
-#  Metaverse_Lab
-메타버스 인터페이스를 위한 장갑형 콘트롤러 개발<br/><br/>
+소근육 발달과 햅틱의 연관성 연구<br/><br/>
 <img width="457" alt="image" src="https://user-images.githubusercontent.com/100567791/203277363-fd14b27d-6b96-4904-9206-a08711418883.png">
 
 ## 🖥️ &nbsp; 프로젝트 소개
-- 메타버스에서 햅틱의 필요성을 깨닫게 되어, 햅틱 중에서도 글러브를 통한 햅틱피드백을 구현하고자 한다.
-- 햅틱 글러브를 통해 가상의 물체를 만지고 그 물체와 상호작용하면서 사용자에게 더 나은 몰입감을 제공하고자 한다. 
-- 가상의 물체를 집었을 때 물체의 특성에 따라 달라지는 물체의 탄성력, 반발력을 사용자가 느끼게 할 것이다. 
-- 이로써 보다 더욱 현실과 비슷한 감각을 메타버스 세계에서 느낄 수 있을 것이다.
-- 또한, 이를 소근육 발달 컨텐츠와 결합하여 햅틱 글러브를 사용하여 디지털 컨텐츠를 즐기면서도 소근육 발달에 도움이 되도록 돕고자한다.
-- 스마트 기기 사용이 늘어난 유아들이 게임을 하면서도 소근육 발달을 챙길 수 있을 것으로 기대한다.
-- 또한, 재활 치료를 받는 사람들이 디지털 공간에서 다양한 컨텐츠를 즐기며 동시에 재활 치료가 가능하도록 하는 발판이 될 것으로 기대한다.
+
+ 가. 과제 선정 배경 및 필요성
+ 소근육 발달이 필요한 아동, 노인, 혹은 재활치료자들을 위한 컨텐츠를 만들고자 했다. 디지털시대가 초래한 이래 디지털기기를 사용하게 되는 연령이 점차 낮아지고 있다. 실제 물건인 여러 도구와 놀이 기구 등을 통해 놀던 아이들이 이제 스마트폰과 스마트 패드를 사용하며 놀게 됐다. 그런 만큼 유아들의 소근육 사용량이 줄어들고 있다. 디지털기기를 사용하더라도 소근육 발달에 도움이 될 수 있는 방안을 고려하고자 하였다. 또한 재활치료를 진행할 때 가장 중요한 것은 ‘정확한 자세’로 ‘반복적’으로 진행해야하는 것이다. 정확한 자세를 판단해주는 전문가를 실시간 옆에 두는 것은 시간적으로 금전적으로 부담이 있는 일이다. 더불어 반복적으로 수많은 시행이 필요한 만큼 매우 고단하고 지루한 작업으로 느껴지기 쉽다. 이와 같은 해결책으로 디지털 공간을 생각했다. 디지털 세계에서는 사용자의 자세를 디지털로 센싱하여 사용자에게 자세의 정확성을 자동으로 알려주기 용이하며, 게임적인 요소를 추가하기 쉽기 때문에 지루함을 덜어낼 수 있을 것이다.
+
+ 휴대폰을 이용한 컨텐츠, 혹은 PC, VR을 이용한 컨텐츠들도 가상 오브젝트와 직접적인 인터랙션이 아닌 간접적 인터랙션을 통해 소통하고 있다. 소근육의 발달에는 직접 오브 젝트들을 만져보며 소근육을 키워가는 것이 효과적이다. 그렇기에 햅틱 디바이스를 통해 사용자가 오브젝트들과 직접으로 인터랙션하게 하는 것이 필요하다고 생각하였다. 
+
+   나. 과제 주요내용
+ 물건을 만져보고, 옮기는 등 상호작용을 할 수 있는 컨텐츠를 만들고자한다. 햅틱 디바  이스를 선정하고, 사용자가 이 햅틱 디바이스를 사용하여 컨텐츠를 진행하도록 할 것이  다. 이 과정에서 근육의 사용 정도를 센싱하는 센서를 사용자에게 부착하여, 평면 디스   플레이를 이용할 때 생기는 근육 사용 정도와 햅틱 디바이스를 사용하여 생기는 근육   사용 정도를 비교하고자 한다. 
+  
+   다. 최종결과물의 목표
+실제 물체와의 인터랙션, 터치 디바이스와의 인터랙션, 피드백 없이 핸드 트랙킹만 이용한 인터랙션, 햅틱 장비를 이용한 인터랙션, 위와 같은 네 가지 인터랙션을 사용하면서 측정된 근전도 데이터를 분석한다. 이 데이터를 토대로 가장 큰 근육 사용량을 제공하는 인터랙션 방법을 찾고자 한다. 또한 하나의 Task를 진행하는 동안 측정된 근전도 데이터를 Time Domain에서 DTW(Dynamic time wraping) 방법으로 유사성 분석하여 실제 인터랙션과 가장 유사한 인터랙션이 어떤 것인지 찾고자한다. 
 
 ## 🕰️ &nbsp; 개발 기간
-- 22.10.01 - 22.11.23
+- 22.09.10 - 22.12.13
 
 ## 📚 &nbsp; Skills
 - ### Languages <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/> <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=C%20Sharp&logoColor=white"/>
 
 - ### Skills <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=Arduino&logoColor=white"/> <img src="https://img.shields.io/badge/Unity-%23000000.svg?style=flat-square&logo=unity&logoColor=white"/> <img src="https://img.shields.io/badge/Bluetooth-0082FC?style=flat-square&logo=Bluetooth&logoColor=white"/> <img src="https://img.shields.io/badge/git-F05032?style=flat-square&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/> <img src="https://img.shields.io/badge/Fusion360-0696D7?style=flat-square&logo=Autodesk&logoColor=white"/> <img src="https://img.shields.io/badge/diagrams-F08705?style=flat-square&logo=diagrams.net&logoColor=white"/>
-
-- ### etc <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 모터, 근전도센서, 3D print
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=Arduino&logoColor=white"/> <img src="https://img.shields.io/badge/Unity-%23000000.svg?style=flat-square&logo=unity&logoColor=white"/>  <img src="https://img.shields.io/badge/git-F05032?style=flat-square&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/> <img src="https://img.shields.io/badge/Fusion360-0696D7?style=flat-square&logo=Autodesk&logoColor=white"/>
 
 ## 💁‍♂️ &nbsp; 팀원 구성
-- 팀장: 김승채 - 유니티  Hand Tracking 제어 & 아두이노 근전도센서 제어 
-- 팀원1: 고준성 - 유니티 & Haptic Glove 간의 Bluetooth 통신
-- 팀원2: 신찬웅 - 유니티 인터페이스 설계
-- 팀원3: 임록희 - 아두이노 인터페이스 설계 및 모터 제어
+- 팀장: 김승채
 
 
 ## 🚩 &nbsp; 세션: 피지컬 컴퓨팅
