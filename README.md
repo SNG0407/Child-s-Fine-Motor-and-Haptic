@@ -92,7 +92,7 @@ https://user-images.githubusercontent.com/63523334/207372906-c65d8260-aee4-4e3f-
 
 근전도 분석은 지속적으로 근전도값을 출력하도록 하였으며, 동시에 10초의 주기로 Count를 세며 각 Count마다 근전도데이터의 평균과 최대값을 계산하여 출력되도록 하였다. 위의 출력값들을 실시간으로 엑셀에 저장되도록 하였다. 
 
-![image](https://user-images.githubusercontent.com/63523334/207379197-4e66117c-ca68-4ab2-8ad2-a353f5570ef4.png)
+
 
 그림  근전도 데이터 측정 및 저장
 
