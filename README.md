@@ -1,8 +1,9 @@
 # Child-s-Fine-Motor-and-Haptic
 
 소근육 발달과 햅틱의 연관성 연구<br/><br/>
-<img width="457" alt="image" src="https://user-images.githubusercontent.com/63523334/207370588-10b2bbce-572c-42de-8658-0e4616959606.PNG">
+<img width="457" alt="image" src="https://user-images.githubusercontent.com/63523334/207372429-f37eb0b0-0e48-40e3-ad79-e42f0be48087.PNG">
 
+![캡처1](https://user-images.githubusercontent.com/63523334/207372429-f37eb0b0-0e48-40e3-ad79-e42f0be48087.PNG)
 
 ## 🖥️ &nbsp; 프로젝트 소개
 
